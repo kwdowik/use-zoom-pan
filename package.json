@@ -1,0 +1,35 @@
+{
+  "name": "use-zoom-pan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "react-hook",
+    "react",
+    "zoom",
+    "pan"
+  ],
+  "author": "Kacper Wdowik (wdowikkacper@gmail.com)",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "dependencies": {
+    "react": "^16.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.7",
+    "@babel/plugin-transform-react-jsx": "^7.12.7",
+    "@babel/preset-env": "^7.12.7",
+    "babel-jest": "^26.6.3",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "jest": "^26.6.3",
+    "react-dom": "^16.8.0",
+    "react-test-renderer": "^16.14.0"
+  }
+}
