@@ -1,12 +1,12 @@
 # use-zoom-pan
 
 [![npm version](https://img.shields.io/npm/v/use-zoom-pan.svg)](https://www.npmjs.com/package/use-zoom-pan)
-![tests](https://github.com/kwdowik/use-zoom-pan/workflows/Tests/badge.svg)
+![tests](https://github.com/kwdowik/use-zoom-pan/workflows/tests/badge.svg)
 
 ## Features
 
-- [zoom](#zoom)
-- [pan](#pan)
+- [Zoom](#zoom)
+- [Pan](#pan)
 
 ## Install
 
@@ -52,8 +52,6 @@ export default function Component() {
 }
 ```
 
-This hook compares prev and next value using shallow equal. It means, setting an object `{}` will trigger debounce timer. If you have to compare objects (https://github.com/xnimorz/use-debounce/issues/27#issuecomment-496828063), you can use `useDebouncedCallback`, that is explained below:
-
 ## Pan
 
 ```javascript
@@ -85,8 +83,8 @@ export default function Component() {
 
 You can provide additional options `useZoomPan`:
 
-| Option     | Default                       | Description                                                                                                                      | 
-| ---------- | ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| minScale    | .1                             | Minimum value for the zoom out                                                    | 
-| maxScale    | 30                             | Maximum value for the zoom in  | 
-| scaleSensitivity   | 50                          | The zoom sensitivity                                                                                  |
+| Option            | Default       | Description                                           | 
+| ----------------- | ------------- | ----------------------------------------------------- | 
+| minScale          | .1            | Minimum value for the zoom out                        | 
+| maxScale          | 30            | Maximum value for the zoom in                         | 
+| scaleSensitivity  | 50            | The zoom sensitivity                                  |

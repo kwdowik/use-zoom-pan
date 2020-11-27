@@ -1,4 +1,4 @@
-name: 📦 Publish to NPM
+name: 📦 publish to npm
 
 on: push
 
