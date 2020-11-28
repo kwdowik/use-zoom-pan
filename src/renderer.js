@@ -1,5 +1,5 @@
 function Renderer({ minScale, maxScale, scaleSensitivity = 10 }) {
-	const initialState = {
+	const getInitialState = () => ({
     	minScale,
         maxScale,
         scaleSensitivity,
@@ -10,8 +10,8 @@ function Renderer({ minScale, maxScale, scaleSensitivity = 10 }) {
             translateY: 0,
             scale: 1
         },
-	};
-	let state = Object.assign({}, initialState);
+	});
+	let state = Object.assign({}, getInitialState());
 
 	this.zoom = ({ element, x, y, deltaScale }) => {
         const { left, top } = element.getBoundingClientRect();
@@ -39,7 +39,7 @@ function Renderer({ minScale, maxScale, scaleSensitivity = 10 }) {
         pan({ element, state, originX: originX - state.transformation.translateX, originY: originY - state.transformation.translateY });
 	},
 	this.reset = () => {
-		state = Object.assign({}, initialState);
+		state = Object.assign({}, getInitialState());
 	}
 
 	const hasPositionChanged = ({ pos, prevPos }) => pos !== prevPos;
