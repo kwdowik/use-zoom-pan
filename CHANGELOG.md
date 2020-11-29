@@ -1,3 +1,7 @@
+## v1.0.0
+
+- First official release use-zoom-pan hook
+
 ## v0.0.3
 
 - Fix update main file path
