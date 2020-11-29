@@ -1,5 +1,7 @@
 # use-zoom-pan
 
+🔍React hook for zoom and pan
+
 [![npm version](https://img.shields.io/npm/v/use-zoom-pan.svg)](https://www.npmjs.com/package/use-zoom-pan)
 ![tests](https://github.com/kwdowik/use-zoom-pan/workflows/tests/badge.svg)
 
