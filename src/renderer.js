@@ -31,16 +31,16 @@ function Renderer({ minScale, maxScale, scaleSensitivity = 10 }) {
 	}
 	this.panBy = ({ element, originX, originY }) => {
 		pan({ element, state, originX, originY })
-	}
-    this.panTo = ({ element, originX, originY, scale }) => {
+	};
+	this.panTo = ({ element, originX, originY, scale }) => {
 		if (scale) {
 			state.transformation.scale = scale;
 		}
-        pan({ element, state, originX: originX - state.transformation.translateX, originY: originY - state.transformation.translateY });
-	},
+			pan({ element, state, originX: originX - state.transformation.translateX, originY: originY - state.transformation.translateY });
+	};
 	this.reset = () => {
 		state = Object.assign({}, getInitialState());
-	}
+	};
 
 	const hasPositionChanged = ({ pos, prevPos }) => pos !== prevPos;
 
