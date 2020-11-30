@@ -1,3 +1,7 @@
+## v1.0.2
+
+- Update project metadata 
+
 ## v1.0.1
 
 - Update project metadata
