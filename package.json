@@ -6,6 +6,10 @@
   "scripts": {
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kwdowik/use-zoom-pan.git"
+  },
   "keywords": [
     "react-hook",
     "react",
@@ -14,12 +18,16 @@
   ],
   "author": "Kacper Wdowik (wdowikkacper@gmail.com)",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kwdowik/use-zoom-pan/issues"
+  },
   "peerDependencies": {
     "react": ">=16.8.0"
   },
   "dependencies": {
     "react": "^16.8.0"
   },
+  "homepage": "https://github.com/kwdowik/use-zoom-pan#readme",
   "devDependencies": {
     "@babel/core": "^7.12.7",
     "@babel/plugin-transform-react-jsx": "^7.12.7",
