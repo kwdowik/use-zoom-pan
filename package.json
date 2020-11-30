@@ -11,10 +11,14 @@
     "url": "https://github.com/kwdowik/use-zoom-pan.git"
   },
   "keywords": [
-    "react-hook",
     "react",
+    "hook",
     "zoom",
-    "pan"
+    "pan",
+    "drag",
+    "move",
+    "scale",
+    "wheel"
   ],
   "author": "Kacper Wdowik (wdowikkacper@gmail.com)",
   "license": "MIT",
