@@ -1,3 +1,7 @@
+## v1.0.1
+
+- Update project metadata
+
 ## v1.0.0
 
 - First official release use-zoom-pan hook
